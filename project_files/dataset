@@ -1,0 +1,17 @@
+📊 Dataset Description
+The dataset used in this project contains labeled images of various butterfly species, used for classification tasks.
+
+🧾 Structure:
+train/: Contains training images for multiple butterfly species.
+test/: Contains testing images to evaluate model performance.
+Training_set.csv: CSV file mapping each image in the training set to its corresponding label.
+Testing_set.csv: CSV file for testing set with image filenames and labels.
+Each image is a .jpg file, and the labels represent species names.
+
+🧪 Dataset Usage in the Project
+Label encoding was performed using LabelEncoder from scikit-learn.
+The image paths were matched to the CSV filenames to load data efficiently.
+Images were resized to 224x224 and normalized before training.
+Dataset was split into training and validation using train_test_split.
+📥 Download
+👉 Download the complete dataset (ZIP)
